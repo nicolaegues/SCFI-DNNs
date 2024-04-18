@@ -1,11 +1,12 @@
 
 """
 Classifies whether a strain (in this case E.coli) is resistant (1) or susceptible (0) when treated with Kanamycin, Trimethorpim, and Gentamycin, 
-based on data gathered from the Sub-Cellular fluctuation technique developed at the University of Bristol -  video of the scattered light signals.
+based on data gathered from the Sub-Cellular fluctuation technique developed at the University of Bristol.
 
 NEEDED for the code to run: Folder with the saved arrays of the input parameters, as well as the experimental spreadsheets generated from running Arthur's code.
 
-Running this code presents various options - choice of antibiotic, 
+Running this code presents various options - choice of antibiotic, choice of DNN method, choice of ACF fit as well as a choice between different input parameters. 
+More details at the bottom of the code.
 """
 
 
