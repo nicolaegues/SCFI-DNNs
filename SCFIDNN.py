@@ -960,9 +960,9 @@ def test(_model, directory1, testloader, loss_fn, mean_fpr, batchsize):
     #_model.load_state_dict(torch.load(directory1))
     #dir = "D:/CNN_res/Kanamycin/95.03%_20x20_double_['_g0_']/best_model.pth"
     #dir = "D:/CNN_res/Trimethoprim/65.25%_20x20_double_['_g0_']/best_model.pth"
-    dir = "D:/CNN_res/Trimethoprim/66.40%_20x20_2DTIRF_['_g0_']/best_model.pth"
+    #dir = "D:/CNN_res/Trimethoprim/66.40%_20x20_2DTIRF_['_g0_']/best_model.pth"
     
-    #dir = directory1
+    dir = directory1
     _model.load_state_dict(torch.load(dir))
 
     test_count = 0
